@@ -76,12 +76,11 @@ y = {
 
 )
 
-~sound = y.play();
+~sound = x.play();
 ~sound.set(\mute, rrand(0, 0.5));
 ~sound.free();
 
 (a = x.play(); b = y.play();)
-(a.free(); b.free();)
 (a.free(); b.free();)
 
 s.plotTree;
